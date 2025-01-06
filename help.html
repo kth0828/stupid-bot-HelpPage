@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디스코드 봇 도움말</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00ff00;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f4f4f9;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📖 디스코드 봇 도움말</h1>
+    </header>
+    <div class="container">
+        <!-- Music Section -->
+        <div class="section">
+            <h2>🎵 Music 명령어</h2>
+            <ul>
+                <li>!입장: 음성 채널에 들어갑니다.</li>
+                <li>!재생 [URL]: URL을 통해 음악을 재생합니다.</li>
+                <li>!일시정지: 음악을 일시 정지합니다.</li>
+                <li>!재개: 일시 정지된 음악을 다시 재생합니다.</li>
+                <li>!중지: 음악을 멈추고 음성 채널에서 나갑니다.</li>
+                <li>!볼륨 [0-100]: 볼륨을 조절합니다. (기본값: 50)</li>
+            </ul>
+        </div>
+
+        <!-- Utility Section -->
+        <div class="section">
+            <h2>🛠️ 유틸리티 명령어</h2>
+            <ul>
+                <li>/출석체크: 하루에 한 번 포인트를 획득합니다.</li>
+                <li>!날씨 [지역]: 특정 지역의 날씨를 확인합니다. (예: !날씨 서울)</li>
+                <li>!청소 [메시지 개수]: 최근 메시지를 삭제합니다. (예: !청소 10)</li>
+                <li>!번역 [문장] [번역 언어]: 문장을 지정된 언어로 번역합니다. (예: !번역 안녕하세요 en)</li>
+                <li>!번역언어: 지원하는 번역 언어 목록을 보여줍니다.</li>
+                <li>!봇상태: 현재 봇의 상태를 표시합니다.</li>
+                <li>!tts: 텍스트를 음성으로 변환하여 읽습니다.</li>
+                <li>!정보: 봇의 정보를 보여줍니다.</li>
+            </ul>
+        </div>
+
+        <!-- Game Section -->
+        <div class="section">
+            <h2>🎮 게임 명령어</h2>
+            <ul>
+                <li>!주사위: 1에서 6까지의 랜덤 숫자를 출력합니다.</li>
+                <li>!가위바위보 [가위/바위/보]: 가위바위보 게임을 진행합니다. (예: !가위바위보 가위)</li>
+                <li>/도박 [베팅 금액]: 포인트를 베팅합니다. 성공 시 1.5배 (예: /도박 100)</li>
+                <li>/주사위도박 [베팅 금액] [짝수/홀수]: 주사위 게임. 성공 시 1.5배 (예: /주사위도박 100 짝수)</li>
+                <li>/룰렛 [베팅 금액] [0-10]: 룰렛 게임. 성공 시 10배 (예: /룰렛 100 7)</li>
+                <li>/포인트: 자신의 현재 포인트를 확인합니다.</li>
+                <li>/포인트양도: 다른 사용자에게 포인트를 양도합니다. (예: /포인트양도 @유저 100)</li>
+                <li>/랭킹: 포인트 랭킹을 확인합니다. (예: /랭킹 10)</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        © 2024 디스코드 봇 도움말 | 모든 권리 보유
+    </footer>
+</body>
+</html>
